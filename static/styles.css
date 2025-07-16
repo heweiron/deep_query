@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    margin: 40px;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 6px;
+}
+
+th {
+    background-color: #eee;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.think-block {
+    background-color: #f0f8ff;
+    border-left: 4px solid #007bff;
+    padding: 10px;
+    margin: 10px 0;
+    font-style: italic;
+    white-space: pre-wrap;
+}
+
+.spinner {
+    width: 24px;
+    height: 24px;
+    border: 4px solid #ccc;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
